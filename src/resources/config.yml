@@ -1,0 +1,18 @@
+kick-on-blacklist: true
+violation-threshold: 2
+
+blacklisted-mods:
+  - freecam
+  - meteor
+  - wurst
+
+whitelisted-mods:
+  - sodium
+  - optifine
+
+database:
+  type: sqlite
+
+webhook:
+  enabled: true
+  url: "PASTE_DISCORD_WEBHOOK"
